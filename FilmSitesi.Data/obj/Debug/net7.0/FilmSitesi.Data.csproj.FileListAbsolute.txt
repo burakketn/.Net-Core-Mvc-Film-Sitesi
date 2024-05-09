@@ -1,0 +1,14 @@
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\bin\Debug\net7.0\FilmSitesi.Data.deps.json
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\bin\Debug\net7.0\FilmSitesi.Data.runtimeconfig.json
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\bin\Debug\net7.0\FilmSitesi.Data.dll
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\bin\Debug\net7.0\FilmSitesi.Data.pdb
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.csproj.AssemblyReference.cache
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.AssemblyInfoInputs.cache
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.AssemblyInfo.cs
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.csproj.CoreCompileInputs.cache
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.dll
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\refint\FilmSitesi.Data.dll
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.pdb
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\FilmSitesi.Data.genruntimeconfig.cache
+C:\Users\keten\source\repos\FilmSitesi\FilmSitesi.Data\obj\Debug\net7.0\ref\FilmSitesi.Data.dll

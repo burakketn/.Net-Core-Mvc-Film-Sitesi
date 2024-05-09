@@ -1,0 +1,68 @@
+﻿@model List<Film>
+@{
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Film Ana Sayfa</title>
+    <link rel="stylesheet" href="~/css/mystyle.css" />
+</head>
+
+<body>
+
+    <h1>Film Listesi</h1>
+    <div class="container">
+        @foreach (var film in Model)
+        {
+            <div class="film-item">
+                <img class="image" src="@(film.ImageUrl??"images/noimage.png")" alt="@film.Name" />
+                <div class="film-bottom">
+                    <h3 class="film-title">@film.Name</h3>
+                    <div class="buttons">
+                        <button class="button-blue" data-filmid="@film.Id">
+                            @film.DislikeCount
+                        </button>
+                        <button class="button-red" data-filmid="@film.Id">
+                            @film.DislikeCount
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+
+    <script>
+        var buttons = document.querySelectorAll(".buttons button");
+        buttons.forEach(function(button){
+            button.addEventListener('click', function () {
+                var filmId = this.getAttribute('data-filmid');
+                var isLike = this.classList.contains('button-blue');
+                var data = {
+                    filmId: filmId,
+                    isLike: isLike,
+                };
+                fetch("/film/like", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                      body:JSON.stringify(data),
+                }).then(function(response){
+                    return response.json();
+                }).then(function(data){
+                    if(data){
+                        button.innerHTML=data;
+                    }
+                });
+
+            });
+        });
+
+    </script>
+</body>
+
+</html>
